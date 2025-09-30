@@ -1,6 +1,6 @@
 module github.com/GlobalCyberAlliance/domain-security-scanner/v3
 
-go 1.23.1
+go 1.24.0
 
 require (
 	github.com/danielgtaylor/huma/v2 v2.22.1
@@ -16,7 +16,7 @@ require (
 	github.com/spf13/cast v1.7.0
 	github.com/spf13/cobra v1.8.1
 	github.com/stretchr/testify v1.9.0
-	github.com/wneessen/go-mail v0.4.4
+	github.com/wneessen/go-mail v0.7.1
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -29,10 +29,10 @@ require (
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	golang.org/x/mod v0.18.0 // indirect
-	golang.org/x/net v0.27.0 // indirect
-	golang.org/x/sync v0.7.0 // indirect
-	golang.org/x/sys v0.22.0 // indirect
-	golang.org/x/text v0.16.0 // indirect
-	golang.org/x/tools v0.22.0 // indirect
+	golang.org/x/mod v0.27.0 // indirect
+	golang.org/x/net v0.43.0 // indirect
+	golang.org/x/sync v0.17.0 // indirect
+	golang.org/x/sys v0.35.0 // indirect
+	golang.org/x/text v0.29.0 // indirect
+	golang.org/x/tools v0.36.0 // indirect
 )
